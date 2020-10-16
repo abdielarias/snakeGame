@@ -1,0 +1,80 @@
+/* Tic Tac Toe Styles ----------------------------------------------------- */
+#tictactoe-Page{
+  background-image: url("images/beach.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  padding: 30px;
+}
+
+#tictactoe-map{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+  background-image: url("images/wood.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#tictactoe-map div{
+  height: 100px;
+  width: 100px;
+  /* background-color:grey; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  border-style: solid;
+  border-color: black;
+}
+
+#tictactoe-map div:hover{
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+  background-color: #8fbaff;
+}
+
+/* Snake Game Styles --------------------------------------------------------- */
+
+#snakeGameMap{
+  display: inline-grid;
+}
+
+.rowDiv{
+  display: inline-grid;
+}
+
+.tileDiv{
+  width: 15px;
+  height: 15px;
+}
+
+.dangerousTile{
+  background-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.safeTile{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b8b8b8;
+
+}
+
+.blueTile{
+  background-color: blue;
+}
+
+.blueTile{
+  background-color: white;
+}
